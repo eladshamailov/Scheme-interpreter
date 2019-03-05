@@ -15,3 +15,4 @@ In this project, we will be working with 3 languages:
 
 ## The pipeline of the compiler
 The pipeline of the compiler is:
+![alt text](https://github.com/eladshamailov/Scheme-interpreter/blob/master/The_pipeline.PNG)
