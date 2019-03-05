@@ -13,3 +13,5 @@ In this project, we will be working with 3 languages:
 * Compile to x86/64 
 * Run on linux
 
+## The pipeline of the compiler
+The pipeline of the compiler is:
