@@ -1,7 +1,7 @@
 # Scheme-interpreter
 Scheme interpreter written in Ocaml
 
-## introduction
+## Introduction
 In this project, we will be working with 3 languages:
 * The language in which to write the compiler: ocaml
 * The language we shall be compiling: Scheme
