@@ -16,3 +16,12 @@ In this project, we will be working with 3 languages:
 ## The pipeline of the compiler
 The pipeline of the compiler is:
 ![alt text](https://github.com/eladshamailov/Scheme-interpreter/blob/master/The_pipeline.PNG)
+
+## Running the project
+First, Download all the files and put them in the same directory.
+
+Assuming your compiler is in ~/compiler and you have a Scheme file to compile ~/foo.scm,
+you can perform similar tests using the following shell command:
+```
+make -f ./compiler/Makefile foo;\
+```
