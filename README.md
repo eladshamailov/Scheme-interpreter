@@ -21,7 +21,11 @@ The pipeline of the compiler is:
 First, Download all the files and put them in the same directory.
 
 Assuming your compiler is in ~/compiler and you have a Scheme file to compile ~/foo.scm,
-you can perform similar tests using the following shell command:
+you can perform tests using the following shell command:
 ```
 make -f ./compiler/Makefile foo;\
+```
+And then just run the file
+```
+foo
 ```
