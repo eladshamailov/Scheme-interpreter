@@ -25,7 +25,7 @@ you can perform tests using the following shell command:
 ```
 make -f ./compiler/Makefile foo;\
 ```
-And then just run the file
+And then just run the file:
 ```
 foo
 ```
