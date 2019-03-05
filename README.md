@@ -29,3 +29,16 @@ And then just run the file
 ```
 foo
 ```
+
+## Testing the project
+Assuming your compiler is in ~/compiler and you have a Scheme file to compile ~/foo.scm,
+you can perform similar tests using the following shell command:
+```
+make -f ./compiler/Makefile foo;\
+set o1=`scheme -q < foo.scm`; set o2=`./foo`;\
+echo "(equal? '($o1) '($o2))" > test.scm;\
+scheme -q < test.scm
+```
+The expected result is #t.
+
+
